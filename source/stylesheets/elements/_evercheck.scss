@@ -1,0 +1,88 @@
+// lame
+
+.home-image-container{
+	width:100%;
+	background-size:60%;
+  background-position:center center;
+  background-repeat:no-repeat;
+	background-image:url(../images/evercheck/home_background@2x.png);
+	margin-top:80px;
+	padding-bottom:50px;
+		  @include breakpoint(sm) {
+	    margin-top:20px;
+	  }
+	img{
+		position: relative;
+	}
+
+	#home-gear-container{
+		  @include animation-duration(1s);
+   @include animation-delay(.4s);
+	}
+
+	#home-gear-one{
+		position: absolute;
+		top: 32%;
+		left: 58%;
+		width: 12%;
+		margin:-7% 0 0 -7%;
+		@include animation(revspin 4s linear infinite);
+	}
+
+
+
+
+	#home-gear-two{
+		position: absolute;
+		top: 24%;
+    left: 69%;
+		width: 13%;
+		margin:-6% 0 0 -6%;
+
+		@include animation(spiny 4s linear infinite);
+
+	}
+
+	
+
+
+		@include keyframes(spiny) {
+		  100% {
+		    @include transform(rotate(360deg));
+		  }
+		}
+
+
+			@include keyframes(revspin) {
+		  100% {
+		    @include transform(rotate(-360deg));
+		  }
+		}
+
+		@include keyframes(grow) {
+		  from {
+		    @include transform(scale(0));
+		  }
+		  to {
+		    @include transform(scale(1));
+		  }
+		}
+
+
+
+
+	#home-browser{
+		@include animation-duration(.5s);
+		@include animation-delay(.2s);
+	}
+	#home-shadow{
+		// z-index: -999;
+    @include animation-name(grow);
+    @include animation-duration(.4s);
+    @include animation-delay(.15s);
+    @include animation-timing-function(linear);
+	}
+
+}
+
+// end lame

@@ -1,0 +1,53 @@
+= javascript_include_tag "jquery-ui.min", "jquery.beforeafter"
+:javascript
+	$(function(){
+		$('#before-after').beforeAfter({
+			animateIntro: true,
+			showFullLinks: false,
+			enableKeyboard: true
+
+		});
+	});
+
+%section.primary-bg.invert-section.no-padding-bottom{style:"background-image:url(images/about_bg.jpg);"}
+	.container
+		.row
+			.col-md-6.col-sm-6
+				%img.max-width.no-margin-bottom{:src=>"images/me.png"}
+			.col-md-6.col-sm-6
+				%h1
+					Me: Alex Lauderdale
+				%h3.double-margin-bottom
+					I live in colorful Colorado. I've been designing & building the web full time for 
+					%strong
+						5+ years.
+				%a.btn.btn-xl.btn-default.btn-invert.double-margin-bottom#see{:href=>"makeena.html"}
+					View a Project
+%section
+	.container
+		.row
+			.col-md-2
+			.col-md-8
+				.text-center
+					%h2
+						Better products through design thinking
+					%h3.triple-margin-bottom.no-margin-bottom
+						Your product deserves more than a pretty face. Let's build something with rhyme and reason.  
+			.col-md-2
+		.row
+			.col-md-12
+				.text-center
+					#before-after{:style=>"margin:0 auto;"}
+						%div
+							%img{alt: "before", height: "2544", src: "images/before.jpg", width: "500"}
+						%div
+							%img{alt: "after", height: "2544", src: "images/after.jpg", width: "500"}
+					#before-after-holder
+						%img.max-width.triple-margin-top{:src=>"images/about_graphic.jpg"}
+%section
+	.container
+		.row
+			.col-md-12
+				%blockquote.primary-text-color.text-center{:style=>"background-color:#464646;"}
+					“Design is not the narrow application of formal skills, it is a way of thinking.”
+= partial "layouts/dribbble"

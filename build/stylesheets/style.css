@@ -1,0 +1,1133 @@
+@import url(animate.css);
+@media (max-width: 767px) {
+  /* line 23, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/responsive.scss */
+  .text-center-sm {
+    text-align: center; } }
+@font-face {
+  font-family: 'socialicoregular';
+  src: url("../font/socialico-webfont.eot");
+  src: url("../font/socialico-webfont.eot?#iefix") format("embedded-opentype"), url("../font/socialico-webfont.woff") format("woff"), url("../font/socialico-webfont.ttf") format("truetype"), url("../font/socialico-webfont.svg#socialicoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo_sans_700regular';
+  src: url("../font/museosans_700-webfont.eot");
+  src: url("../font/museosans_700-webfont.eot?#iefix") format("embedded-opentype"), url("../font/museosans_700-webfont.woff") format("woff"), url("../font/museosans_700-webfont.ttf") format("truetype"), url("../font/museosans_700-webfont.svg#museo_sans_500regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo_sans_500regular';
+  src: url("../font/museosans_500-webfont.eot");
+  src: url("../font/museosans_500-webfont.eot?#iefix") format("embedded-opentype"), url("../font/museosans_500-webfont.woff") format("woff"), url("../font/museosans_500-webfont.ttf") format("truetype"), url("../font/museosans_500-webfont.svg#museo_sans_500regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo_sans_900regular';
+  src: url("../font/museosans_900-webfont.eot");
+  src: url("../font/museosans_900-webfont.eot?#iefix") format("embedded-opentype"), url("../font/museosans_900-webfont.woff") format("woff"), url("../font/museosans_900-webfont.ttf") format("truetype"), url("../font/museosans_900-webfont.svg#museo_sans_900regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo_sans_300regular';
+  src: url("../font/museosans-300-webfont.eot");
+  src: url("../font/museosans-300-webfont.eot?#iefix") format("embedded-opentype"), url("../font/museosans-300-webfont.woff") format("woff"), url("../font/museosans-300-webfont.ttf") format("truetype"), url("../font/museosans-300-webfont.svg#museo_sans_300regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'museo_sans_100regular';
+  src: url("../font/museosans-100-webfont.eot");
+  src: url("../font/museosans-100-webfont.eot?#iefix") format("embedded-opentype"), url("../font/museosans-100-webfont.woff") format("woff"), url("../font/museosans-100-webfont.ttf") format("truetype"), url("../font/museosans-100-webfont.svg#museo_sans_100regular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 114, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+body {
+  font: 100% "museo_sans_300regular", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #4a4a4a;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  width: 100%;
+  line-height: 24px;
+  padding-top: 98px;
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  zoom: 1; }
+
+/* line 132, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit; }
+
+/* line 135, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  margin-bottom: 24px;
+  color: #4a4a4a; }
+
+/* line 141, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #4a4a4a; }
+
+/* line 145, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h1, h2, h3, h4 {
+  font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif; }
+
+/* line 148, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h2 {
+  font-family: "museo_sans_100regular", Helvetica, Arial, sans-serif; }
+
+/* line 151, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h3 {
+  font-family: "museo_sans_100regular", Helvetica, Arial, sans-serif; }
+
+/* line 154, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h5, h6 {
+  font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif; }
+
+/* line 158, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+p {
+  font-size: 1.2em;
+  line-height: 28.8px;
+  color: #888888; }
+
+/* line 159, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h1 {
+  font-size: 5.5em;
+  line-height: 84px; }
+
+/* line 160, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h2 {
+  font-size: 2.5em;
+  line-height: 43.2px; }
+
+/* line 161, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h3 {
+  font-size: 1.6em;
+  line-height: 31.2px; }
+
+/* line 162, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h4 {
+  font-size: 1.4em;
+  line-height: 24px; }
+
+/* line 163, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h5 {
+  font-size: 1em;
+  line-height: 24px; }
+
+/* line 164, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h6 {
+  font-size: 0.9em;
+  line-height: 24px; }
+
+/* line 167, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+h1.jumbo-text {
+  font-size: 5em;
+  line-height: 72px; }
+
+/* line 173, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+blockquote {
+  border: none;
+  padding: 24px;
+  font-size: 4.5em;
+  line-height: 84px;
+  font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif; }
+
+/* line 183, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.text-columns-2 {
+  -webkit-columns: 24px 2;
+  -moz-columns: 24px 2;
+  columns: 24px 2; }
+
+/* line 186, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.text-columns-3 {
+  -webkit-columns: 24px 3;
+  -moz-columns: 24px 3;
+  columns: 24px 3; }
+
+/* line 189, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.text-columns-4 {
+  -webkit-columns: 24px 4;
+  -moz-columns: 24px 4;
+  columns: 24px 4; }
+
+/* line 193, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.text-uppercase {
+  text-transform: uppercase; }
+
+/* line 200, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.light-font-name {
+  font-family: "museo_sans_100regular", Helvetica, Arial, sans-serif; }
+
+/* line 203, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.regular-font-name {
+  font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif; }
+
+/* line 206, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.medium-font-name {
+  font-family: "museo_sans_500regular", Helvetica, Arial, sans-serif; }
+
+/* line 209, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.bold-font-name {
+  font-family: "museo_sans_700regular", Helvetica, Arial, sans-serif !important; }
+
+/* line 212, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.extra-bold-font-name {
+  font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif; }
+
+/* line 216, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.social-font-name {
+  font-family: "socialicoregular"; }
+
+/* line 221, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.primary-text-color {
+  color: #2eb350 !important; }
+  /* line 223, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  .primary-text-color p {
+    color: #2eb350 !important; }
+
+/* line 229, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.white-text h1, .white-text h2, .white-text h3, .white-text h4, .white-text h5, .white-text h6, .white-text p, .white-text a, .white-text blockquote {
+  color: white !important; }
+
+/* line 237, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.divider {
+  display: block;
+  height: 1px;
+  background-color: #dddddd; }
+
+/* line 243, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.primary-bg {
+  background: #2eb350; }
+
+/* line 247, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.bg-cover {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 255, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.relative {
+  position: relative; }
+
+/* line 259, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.hidden {
+  display: none; }
+
+/* line 263, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.base-line-height {
+  line-height: 24px; }
+
+/* line 267, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.full-width {
+  width: 100%; }
+
+/* line 271, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.max-width {
+  max-width: 100%; }
+
+/* line 275, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.display-block {
+  display: block; }
+
+/* line 279, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.inline-block {
+  display: inline-block; }
+
+/* line 283, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.inline {
+  display: inline; }
+
+/* line 287, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+ul.inline {
+  list-style: none;
+  margin-left: 0; }
+  /* line 290, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  ul.inline li {
+    display: inline-block;
+    padding: 0 5px; }
+
+/* line 297, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.margin-auto {
+  margin: 0 auto; }
+
+/* line 300, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.margin {
+  margin: 24px !important; }
+
+/* line 303, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.margin-top {
+  margin-top: 24px !important; }
+
+/* line 306, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.margin-right {
+  margin-right: 24px !important; }
+
+/* line 309, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.margin-bottom {
+  margin-bottom: 24px !important; }
+
+/* line 312, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.margin-left {
+  margin-left: 24px !important; }
+
+/* line 315, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.double-margin-top {
+  margin-top: 48px !important; }
+
+/* line 318, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.double-margin-right {
+  margin-right: 48px !important; }
+
+/* line 321, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.double-margin-bottom {
+  margin-bottom: 48px !important; }
+
+/* line 324, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.double-margin-left {
+  margin-left: 48px !important; }
+
+/* line 327, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.triple-margin-top {
+  margin-top: 72px !important; }
+
+/* line 330, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.triple-margin-right {
+  margin-right: 72px !important; }
+
+/* line 333, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.triple-margin-bottom {
+  margin-bottom: 72px !important; }
+
+/* line 336, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.triple-margin-left {
+  margin-left: 72px !important; }
+
+/* line 339, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.half-margin-top {
+  margin-top: 12px !important; }
+
+/* line 342, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.half-margin-right {
+  margin-right: 12px !important; }
+
+/* line 345, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.half-margin-bottom {
+  margin-bottom: 12px !important; }
+
+/* line 348, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.half-margin-left {
+  margin-left: 12px !important; }
+
+/* line 351, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.quarter-margin-top {
+  margin-top: 6px !important; }
+
+/* line 354, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.quarter-margin-right {
+  margin-right: 6px !important; }
+
+/* line 357, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.quarter-margin-bottom {
+  margin-bottom: 6px !important; }
+
+/* line 360, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.quarter-margin-left {
+  margin-left: 6px !important; }
+
+/* line 363, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-margin {
+  margin: 0px !important; }
+
+/* line 366, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-margin-top {
+  margin-top: 0px !important; }
+
+/* line 369, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-margin-right {
+  margin-right: 0px !important; }
+
+/* line 372, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-margin-bottom {
+  margin-bottom: 0px !important; }
+
+/* line 375, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-margin-left {
+  margin-left: 0px !important; }
+
+/* line 378, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.large-margin-top {
+  margin-top: 72px !important; }
+
+/* line 383, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.padded {
+  padding: 24px !important; }
+
+/* line 386, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.padding-top {
+  padding-top: 24px !important; }
+
+/* line 389, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.padding-right {
+  padding-right: 24px !important; }
+
+/* line 392, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.padding-bottom {
+  padding-bottom: 24px !important; }
+
+/* line 395, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.padding-left {
+  padding-left: 24px !important; }
+
+/* line 398, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.double-padding-top {
+  padding-top: 48px !important; }
+
+/* line 401, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.double-padding-right {
+  padding-right: 48px !important; }
+
+/* line 404, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.double-padding-bottom {
+  padding-bottom: 48px !important; }
+
+/* line 407, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.double-padding-left {
+  padding-left: 48px !important; }
+
+/* line 410, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.triple-padding-top {
+  padding-top: 72px !important; }
+
+/* line 413, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.triple-padding-right {
+  padding-right: 72px !important; }
+
+/* line 416, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.triple-padding-bottom {
+  padding-bottom: 72px !important; }
+
+/* line 419, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.triple-padding-left {
+  padding-left: 72px !important; }
+
+/* line 422, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-padding {
+  padding: 0px !important; }
+
+/* line 425, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-padding-top {
+  padding-top: 0px !important; }
+
+/* line 428, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-padding-right {
+  padding-right: 0px !important; }
+
+/* line 431, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-padding-bottom {
+  padding-bottom: 0px !important; }
+
+/* line 434, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.no-padding-left {
+  padding-left: 0px !important; }
+
+/* line 437, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.half-padding {
+  padding: 12px !important; }
+
+/* line 440, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.half-padding-top {
+  padding-top: 12px !important; }
+
+/* line 443, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.half-padding-right {
+  padding-right: 12px !important; }
+
+/* line 446, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.half-padding-bottom {
+  padding-bottom: 12px !important; }
+
+/* line 449, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.half-padding-left {
+  padding-left: 12px !important; }
+
+/* line 452, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.quarter-padding {
+  padding: 6px !important; }
+
+/* line 455, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.quarter-padding-top {
+  padding-top: 6px !important; }
+
+/* line 458, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.quarter-padding-right {
+  padding-right: 6px !important; }
+
+/* line 461, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.quarter-padding-bottom {
+  padding-bottom: 6px !important; }
+
+/* line 464, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.quarter-padding-left {
+  padding-left: 6px !important; }
+
+/* line 471, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 479, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+* html .clearfix {
+  zoom: 1; }
+
+/* IE6 */
+/* line 480, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+*:first-child + html .clearfix {
+  zoom: 1; }
+
+/* IE7 */
+/* line 484, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.full-width-image {
+  width: 100%;
+  height: auto; }
+
+/* line 489, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.img-shadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); }
+
+/* line 496, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+a {
+  color: #2eb350; }
+  /* line 498, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  a:hover {
+    text-decoration: none;
+    color: #58c273; }
+  /* line 502, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  a.arrow {
+    font-size: 1.2em;
+    font-family: "museo_sans_700regular", Helvetica, Arial, sans-serif;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    background-image: url(../images/small_arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 8px;
+    padding-right: 30px; }
+    /* line 510, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+    a.arrow:hover {
+      padding-right: 40px; }
+  /* line 514, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  a.link-underline {
+    text-decoration: underline; }
+
+/* line 521, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.btn {
+  font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  font-size: 1.2em; }
+  /* line 525, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  .btn.btn-invert {
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.5) !important;
+    background-color: transparent !important; }
+    /* line 529, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+    .btn.btn-invert:hover {
+      border-color: white !important; }
+
+/* line 535, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.btn-xl {
+  padding: 24px 48px; }
+
+/* line 541, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.navbar {
+  padding: 24px 0;
+  background-color: white;
+  margin-bottom: 0;
+  border: none; }
+
+/* line 548, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+a.logo {
+  background: url(../images/logo_2.png) no-repeat;
+  width: 56px;
+  height: 55px;
+  margin-top: 0;
+  background-size: 100%; }
+
+/* line 556, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.menu-title {
+  color: #2eb350;
+  font-family: "museo_sans_700regular", Helvetica, Arial, sans-serif;
+  margin-left: 6px; }
+
+/* line 564, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+nav.menu-drop {
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  opacity: 0;
+  z-index: 800;
+  height: 100%;
+  width: 100%;
+  -webkit-transform: translate(0, -127%);
+  -moz-transform: translate(0, -127%);
+  -ms-transform: translate(0, -127%);
+  -o-transform: translate(0, -127%);
+  transform: translate(0, -127%);
+  margin-top: -1px;
+  background-color: #fafafa;
+  background-color: #2fb451;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2fb451), color-stop(100%, #85c695));
+  background-image: -webkit-linear-gradient(top, #2fb451 0%, #85c695 100%);
+  background-image: -moz-linear-gradient(top, #2fb451 0%, #85c695 100%);
+  background-image: -ms-linear-gradient(top, #2fb451 0%, #85c695 100%);
+  background-image: -o-linear-gradient(top, #2fb451 0%, #85c695 100%);
+  background-image: linear-gradient(top, #2fb451 0%, #85c695 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  -webkit-transition: -webkit-transform .5s, opacity 0.6s;
+  -moz-transition: -moz-transform .5s, opacity 0.6s;
+  -o-transition: -o-transform .5s, opacity 0.6s;
+  transition: transform .5s, opacity 0.6s;
+  overflow-y: scroll;
+  padding: 0 24px 72px 24px; }
+  /* line 584, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  nav.menu-drop p {
+    color: white;
+    font-family: "museo_sans_300regular", Helvetica, Arial, sans-serif; }
+    /* line 587, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+    nav.menu-drop p.header {
+      font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif;
+      font-size: .9em; }
+  /* line 592, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  nav.menu-drop ul {
+    text-align: center !important;
+    display: block !important; }
+    /* line 595, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+    nav.menu-drop ul li {
+      display: inline-block;
+      color: white; }
+    /* line 600, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+    nav.menu-drop ul.social-menu li {
+      font-size: 2em; }
+  /* line 605, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  nav.menu-drop a {
+    text-align: center;
+    font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.8); }
+    /* line 610, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+    nav.menu-drop a h1 {
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+      -ms-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      color: rgba(255, 255, 255, 0.8);
+      font-family: "museo_sans_900regular", Helvetica, Arial, sans-serif;
+      margin: 0;
+      font-size: 1.5em;
+      line-height: 36px; }
+    /* line 618, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+    nav.menu-drop a:hover {
+      color: white; }
+      /* line 620, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+      nav.menu-drop a:hover h1 {
+        color: white; }
+  /* line 626, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  nav.menu-drop section {
+    padding: 24px 0; }
+
+/* line 631, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+nav.menu-show {
+  opacity: 1; }
+
+/* line 635, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.nav-open {
+  overflow: hidden; }
+  /* line 637, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  .nav-open .menu-drop {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: -webkit-transform .5s, opacity 0s;
+    -moz-transition: -moz-transform .5s, opacity 0s;
+    -o-transition: -o-transform .5s, opacity 0s;
+    transition: transform .5s, opacity 0s; }
+
+/* line 650, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+section {
+  padding: 72px 0; }
+  /* line 653, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  section.invert-section h1, section.invert-section h2, section.invert-section h3, section.invert-section h4, section.invert-section h5, section.invert-section h6, section.invert-section p, section.invert-section a {
+    color: white; }
+  /* line 657, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  section.dribbble {
+    background: url(../images/dribbble_bg.png) no-repeat right; }
+  /* line 660, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  section#home-hero {
+    background: #2eb350 url(../images/hero_bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  /* line 665, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  section.grid-bg {
+    background: url(../images/bg_grid.png) center center; }
+
+/* line 674, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+img.home-icon {
+  height: 100px;
+  opacity: .5;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s; }
+  /* line 678, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  img.home-icon:hover {
+    opacity: 1; }
+
+/* line 689, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+#before-after {
+  cursor: col-resize;
+  margin-top: 72px !important;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  background: url(../images/browser-top.jpg) no-repeat top;
+  padding-top: 30px !important; }
+
+/* line 697, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+#before-after-holder {
+  display: none; }
+
+/* line 705, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 711, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.masonry-grid {
+  /* fluid 3 columns */
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  background: transparent;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  /* line 717, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  .masonry-grid .grid-sizer,
+  .masonry-grid .grid-item {
+    width: 31%; }
+    @media (max-width: 992px) {
+      /* line 717, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+      .masonry-grid .grid-sizer,
+      .masonry-grid .grid-item {
+        width: 48%; } }
+  /* line 722, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  .masonry-grid .grid-item {
+    border: 1px solid #eee;
+    float: left;
+    margin: 1%;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s; }
+    /* line 727, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+    .masonry-grid .grid-item img {
+      width: 100%;
+      -webkit-transition-duration: 0.3s;
+      -moz-transition-duration: 0.3s;
+      -ms-transition-duration: 0.3s;
+      -o-transition-duration: 0.3s;
+      transition-duration: 0.3s; }
+  /* line 732, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  .masonry-grid .gutter-sizer {
+    width: 0%; }
+
+/* line 737, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.masonry-grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/* line 751, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+.gray-text-box {
+  background-color: rgba(44, 56, 62, 0.67); }
+
+/* line 758, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+footer {
+  background-color: #2eb350;
+  padding: 48px 0; }
+  /* line 761, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  footer p, footer a {
+    color: white; }
+    /* line 763, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+    footer p:hover, footer a:hover {
+      color: white; }
+
+@media (max-width: 640px) {
+  /* line 773, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  h1, blockquote {
+    font-size: 3em;
+    line-height: 48px; }
+
+  /* line 777, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  .menu-title {
+    display: none; }
+
+  /* line 780, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  nav.menu-drop section {
+    padding: 24px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); }
+  /* line 785, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  nav.menu-drop ul li {
+    font-size: .8em; }
+
+  /* line 791, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  #before-after {
+    display: none; }
+
+  /* line 794, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  #before-after-holder {
+    display: block; } }
+@media (max-width: 320px) {
+  /* line 803, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  .btn {
+    width: 100%; }
+
+  /* line 807, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/base.scss */
+  footer p {
+    display: inline-block;
+    width: 100%;
+    text-align: center !important; } }
+/* line 6, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+.carousel-fade .carousel-inner .item {
+  transition-property: opacity; }
+/* line 10, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+/* line 16, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+/* line 22, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0); }
+/* line 31, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+/* line 38, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+#work-slider ol.carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.5); }
+  /* line 43, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+  #work-slider ol.carousel-indicators li.active {
+    background: white;
+    width: 22px;
+    height: 22px; }
+/* line 51, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+#work-slider .slide section {
+  height: 600px;
+  overflow: hidden; }
+
+/* line 58, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+.macbook-bg {
+  background: url(../images/evercheck/bg_macbook.png) center;
+  background-size: 123%; }
+  /* line 61, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+  .macbook-bg #carousel-macbook {
+    padding: 13%; }
+    /* line 64, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+    .macbook-bg #carousel-macbook .item img {
+      border-radius: 4px; }
+    /* line 68, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+    .macbook-bg #carousel-macbook .carousel-control {
+      background: none;
+      width: 50%; }
+      /* line 71, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+      .macbook-bg #carousel-macbook .carousel-control.left {
+        cursor: url(../images/gallery-arrow-prev.png) 15 9, e-resize; }
+      /* line 74, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+      .macbook-bg #carousel-macbook .carousel-control.right {
+        cursor: url(../images/gallery-arrow-next.png) 15 9, e-resize; }
+      /* line 77, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+      .macbook-bg #carousel-macbook .carousel-control:hover {
+        background: none; }
+
+/* line 85, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+.browser-bg {
+  background: url(../images/evercheck/browser_bg.png) center no-repeat;
+  background-size: 83.9%; }
+  /* line 88, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+  .browser-bg #carousel-browser {
+    padding: 10.5%; }
+    /* line 90, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+    .browser-bg #carousel-browser .carousel-control {
+      background: none;
+      width: 50%; }
+      /* line 93, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+      .browser-bg #carousel-browser .carousel-control.left {
+        cursor: url(../images/gallery-arrow-prev.png) 15 9, e-resize; }
+      /* line 96, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+      .browser-bg #carousel-browser .carousel-control.right {
+        cursor: url(../images/gallery-arrow-next.png) 15 9, e-resize; }
+      /* line 99, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+      .browser-bg #carousel-browser .carousel-control:hover {
+        background: none; }
+
+/* line 109, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+.app-bg-bg {
+  background: url(../images/evercheck/phones_bg.png) center 70% no-repeat;
+  background-size: 100%; }
+
+/* line 114, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+.app-bg {
+  background: url(../images/evercheck/phone_bg.png) center no-repeat;
+  background-size: 70%; }
+  /* line 117, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+  .app-bg #carousel-app {
+    padding: 24%; }
+    /* line 119, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+    .app-bg #carousel-app .carousel-control {
+      background: none;
+      width: 50%; }
+      /* line 122, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+      .app-bg #carousel-app .carousel-control.left {
+        cursor: url(../images/gallery-arrow-prev.png) 15 9, e-resize; }
+      /* line 125, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+      .app-bg #carousel-app .carousel-control.right {
+        cursor: url(../images/gallery-arrow-next.png) 15 9, e-resize; }
+      /* line 128, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/partials/_sliders.scss */
+      .app-bg #carousel-app .carousel-control:hover {
+        background: none; }
+
+/* line 3, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/elements/_evercheck.scss */
+.home-image-container {
+  width: 100%;
+  background-size: 60%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url(../images/evercheck/home_background@2x.png);
+  margin-top: 130px; }
+  @media (max-width: 767px) {
+    /* line 3, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/elements/_evercheck.scss */
+    .home-image-container {
+      margin-top: 20px; } }
+  /* line 13, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/elements/_evercheck.scss */
+  .home-image-container img {
+    position: relative; }
+  /* line 17, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/elements/_evercheck.scss */
+  .home-image-container #home-gear-container {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s; }
+  /* line 22, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/elements/_evercheck.scss */
+  .home-image-container #home-gear-one {
+    position: absolute;
+    top: 38%;
+    left: 58%;
+    width: 14%;
+    margin: -7% 0 0 -7%;
+    -webkit-animation: revspin 4s linear infinite;
+    -moz-animation: revspin 4s linear infinite;
+    animation: revspin 4s linear infinite; }
+  /* line 34, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/elements/_evercheck.scss */
+  .home-image-container #home-gear-two {
+    position: absolute;
+    top: 30%;
+    left: 69%;
+    width: 12%;
+    margin: -6% 0 0 -6%;
+    -webkit-animation: spiny 4s linear infinite;
+    -moz-animation: spiny 4s linear infinite;
+    animation: spiny 4s linear infinite; }
+@-webkit-keyframes spiny {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-moz-keyframes spiny {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-ms-keyframes spiny {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-o-keyframes spiny {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes spiny {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@-webkit-keyframes revspin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+@-moz-keyframes revspin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+@-ms-keyframes revspin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+@-o-keyframes revspin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+@keyframes revspin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg); } }
+@-webkit-keyframes grow {
+  from {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+@-moz-keyframes grow {
+  from {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+@-ms-keyframes grow {
+  from {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+@-o-keyframes grow {
+  from {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+@keyframes grow {
+  from {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0); }
+  to {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); } }
+  /* line 73, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/elements/_evercheck.scss */
+  .home-image-container #home-browser {
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    animation-delay: 0.2s; }
+  /* line 77, /Users/alexlauderdale/Desktop/faaak/source/stylesheets/elements/_evercheck.scss */
+  .home-image-container #home-shadow {
+    -webkit-animation-name: grow;
+    -moz-animation-name: grow;
+    animation-name: grow;
+    -webkit-animation-duration: 0.4s;
+    -moz-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-delay: 0.15s;
+    -moz-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    animation-timing-function: linear; }

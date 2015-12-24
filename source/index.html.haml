@@ -1,0 +1,76 @@
+:javascript
+	$(function() {
+		$('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+				$('html,body').animate({
+					scrollTop: target.offset().top-50
+				}, 1500);
+				return false;
+			}
+		}
+		});
+	});
+
+
+%section.section.primary-bg.invert-section#home-hero{:'data-speed' => "2", :'data-type' => "background"}
+	.container
+		.row
+			.col-md-8.col-sm-12
+				%h1.text-uppercase
+					Design Is more than
+					Pushing Pixels
+				%h3.double-margin-bottom
+					It is an exciting approach to solving problems. 
+					%br
+					Let's have some fun solving yours. 
+				%a.btn.btn-xl.btn-default.btn-invert.double-margin-bottom#see{:href=>"#work"}
+					See the Work
+			.col-md-4.hidden-sm.hidden-xs
+				%img.max-width{:src=>"images/wire.png"}
+%section
+	.container
+		.row.double-margin-bottom
+			.col-md-1.col-sm-1
+			.col-md-10.col-sm-10
+				.text-center
+					%h2
+						%span.regular-font-name{:style=>"font-size:1.8em; position:relative; right:-10px;"}
+							%a{:href=>"about.html"}
+								*
+						I am proud to offer a full spectrum of design solutions.
+
+			.col-md-1.col-sm-1
+		.row
+			.col-md-4.col-sm-4
+				.padded
+					%img.double-margin-bottom.home-icon{:src=>"images/dev_icon.png"}
+						%h4
+							Web Design & UX
+						%p
+							A good user interface should be not only functional, but pleasant to. Let's raise the bar and create a better experience.
+						%a.arrow{:href=>"wellhire.html"}
+							View something I improved
+			.col-md-4.col-sm-4
+				.padded
+					%img.double-margin-bottom.home-icon{:src=>"images/design_icon.png"}
+						%h4
+							Product Design & Branding
+						%p
+							Did I mention design solves problems? Let's asses your needs, explore a strategy and create something beautiful. 
+						%a.arrow{:href=>"makeena.html"}
+							See a design solution
+			.col-md-4.col-sm-4
+				.padded
+					%img.double-margin-bottom.home-icon{:src=>"images/ux_icon.png"}
+						%h4
+							Development & CMS
+						%p
+							Once your problem is solved, let's implement it. Bringing an idea to life is all about nailing the details, large or small.
+						%a.arrow{:href=>"sites.html"}
+							Explore the things I've built  
+#work
+	= partial "layouts/work_menu"
+= partial "layouts/dribbble"
