@@ -1,0 +1,17 @@
+-data.apps.apps.each do |a|
+  %section.invert-section{style: "background-color:#{a.background_color};"}
+    .container
+      .row
+        .col-sm-6.col-md-4.triple-margin-top.double-margin-bottom.no-margin-top-md
+          .double-margin-top.no-margin-top-md
+          %img.max-width.margin-bottom{src: "images/apps/#{a.icon_url}",:width=>"81px"}
+          %h2
+            =a.title
+          %p
+            =a.description
+          %a.arrow.white-arrow.text-uppercase{:href=>"#{a.link_url}", :style=>"letter-spacing:1px;"}
+            =a.link_title
+        .col-md-1.col-sm-1
+        .col-md-6.col-sm-5
+          %img.img-responsive.margin-bottom.margin-top{src: "images/apps/#{a.phone_url}",:width=>"550px"}
+        .col-md-1

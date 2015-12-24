@@ -507,6 +507,9 @@ a{
     background-repeat:no-repeat;
     background-position:right 8px;
     padding-right:30px;
+    &.white-arrow{
+      background-image:url(../images/small_arrow_white.png);
+    }
     &:hover{
       padding-right:40px;
     }
@@ -811,3 +814,30 @@ footer{
     }
   }
 }
+
+
+  @include breakpoint(md) {
+    .text-center-md{
+      text-align: center;
+    }
+    .no-margin-top-md{
+      margin-top:0!important;
+    }
+  }
+
+
+  @include breakpoint(sm) {
+    .text-center-sm{
+      text-align: center;
+    }
+    .no-margin-top-sm{
+      margin-top:0!important;
+    }
+  }
+
+
+    @include breakpoint(xs) {
+    .no-margin-top-xs{
+      margin-top:0!important;
+    }
+  }

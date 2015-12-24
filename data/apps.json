@@ -1,0 +1,76 @@
+{
+	"apps": [
+	  {	
+	  	"background_color":"#FF275A", 
+	  	"phone_url":"phones_soulmates.png", 
+	  	"icon_url":"icon_soulmates.png",
+	  	"title":"Soulmates",
+	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"link_title":"Get The App",
+	  	"link_url":"#"
+	  },
+	  {	
+	  	"background_color":"#40B992", 
+	  	"phone_url":"phones_ceb.png", 
+	  	"icon_url":"icon_ceb.png",
+	  	"title":"CE Broker",
+	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"link_title":"Get The App",
+	  	"link_url":"#"
+	  },
+	  {	
+	  	"background_color":"#E94C00", 
+	  	"phone_url":"phones_sqft.png", 
+	  	"icon_url":"icon_sqft.png",
+	  	"title":"SQFT",
+	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"link_title":"Get The App",
+	  	"link_url":"#"
+	  },
+	  {	
+	  	"background_color":"#00A8E1", 
+	  	"phone_url":"phones_tripday.png", 
+	  	"icon_url":"icon_tripday.png",
+	  	"title":"TripDay",
+	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"link_title":"Get The App",
+	  	"link_url":"#"
+	  },
+	  {	
+	  	"background_color":"#00376F", 
+	  	"phone_url":"phones_evercheck.png", 
+	  	"icon_url":"icon_evercheck.png",
+	  	"title":"Evercheck",
+	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"link_title":"View the Case Study",
+	  	"link_url":"evercheck.html"
+	  },
+	  {	
+	  	"background_color":"#4F006C", 
+	  	"phone_url":"phones_recruit_u.png", 
+	  	"icon_url":"icon_recruit_u.png",
+	  	"title":"Recruit U",
+	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"link_title":"Get The App",
+	  	"link_url":"#"
+	  },
+	  {	
+	  	"background_color":"#007B96", 
+	  	"phone_url":"phones_gloo.png", 
+	  	"icon_url":"icon_gloo.png",
+	  	"title":"Gloo",
+	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"link_title":"Get The App",
+	  	"link_url":"#"
+	  },
+	  {	
+	  	"background_color":"#292929", 
+	  	"phone_url":"phones_thrive.png", 
+	  	"icon_url":"icon_thrive.png",
+	  	"title":"ThrivePass",
+	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"link_title":"View the Case Study",
+	  	"link_url":"thrivepass.html"
+	  }
+	]
+}
