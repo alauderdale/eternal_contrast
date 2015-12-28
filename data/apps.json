@@ -5,43 +5,43 @@
 	  	"phone_url":"phones_soulmates.png", 
 	  	"icon_url":"icon_soulmates.png",
 	  	"title":"Soulmates",
-	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"description":"Soulmates is a messaging app exclusively for couples. Its goal is simple: encourage couples to do more fun things together.",
 	  	"link_title":"Get The App",
-	  	"link_url":"#"
+	  	"link_url":"https://itunes.apple.com/us/app/soulmates-app/id967112469?mt=8"
 	  },
 	  {	
 	  	"background_color":"#40B992", 
 	  	"phone_url":"phones_ceb.png", 
 	  	"icon_url":"icon_ceb.png",
 	  	"title":"CE Broker",
-	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"description":"CE Broker helps licensed healthcare professionals complete CE requirements quickly and stay compliant. Users can view their official requirements, check your CE Compliance Status, report hours, and search for continuing education courses on-the-go.",
 	  	"link_title":"Get The App",
-	  	"link_url":"#"
+	  	"link_url":"https://itunes.apple.com/us/app/ce-broker/id384461998?mt=8"
 	  },
 	  {	
 	  	"background_color":"#E94C00", 
 	  	"phone_url":"phones_sqft.png", 
 	  	"icon_url":"icon_sqft.png",
 	  	"title":"SQFT",
-	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"description":"SQFT is the world’s first and only fully transactional real estate app. SQFT provides users with the full professional support of a licensed real estate broker affiliate in their area. Users get the savings and control of DIY without sacrificing the advantages of working with a professional team.",
 	  	"link_title":"Get The App",
-	  	"link_url":"#"
+	  	"link_url":"https://itunes.apple.com/us/app/sqft-buy-sell-homes-condos/id911880756?mt=8"
 	  },
 	  {	
 	  	"background_color":"#00A8E1", 
 	  	"phone_url":"phones_tripday.png", 
 	  	"icon_url":"icon_tripday.png",
 	  	"title":"TripDay",
-	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"description":"TripDay helps travelers get connected to the best vacation experiences by rating beautiful, fun and interesting pictures of a viriety of vacation destinations.",
 	  	"link_title":"Get The App",
-	  	"link_url":"#"
+	  	"link_url":"https://itunes.apple.com/us/app/tripday-bahamas-special-offers/id888007946?mt=8"
 	  },
 	  {	
 	  	"background_color":"#00376F", 
 	  	"phone_url":"phones_evercheck.png", 
 	  	"icon_url":"icon_evercheck.png",
 	  	"title":"Evercheck",
-	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"description":"EverCheck monitors employee’s certifications, working behind the scenes to monitor licenses and notify users of any issues.",
 	  	"link_title":"View the Case Study",
 	  	"link_url":"evercheck.html"
 	  },
@@ -50,25 +50,25 @@
 	  	"phone_url":"phones_recruit_u.png", 
 	  	"icon_url":"icon_recruit_u.png",
 	  	"title":"Recruit U",
-	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
-	  	"link_title":"Get The App",
-	  	"link_url":"#"
+	  	"description":"RecruitU was designed by experienced college coaching experts to direct student athletes search to their ideal college sports programs.",
+	  	"link_title":"View the Case Study",
+	  	"link_url":"/recruit-u.html"
 	  },
 	  {	
 	  	"background_color":"#007B96", 
 	  	"phone_url":"phones_gloo.png", 
 	  	"icon_url":"icon_gloo.png",
 	  	"title":"Gloo",
-	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"description":"Gloo connects users to experts ready to help them grow through customized content experiences. track their growth, and share their experiences with others.",
 	  	"link_title":"Get The App",
-	  	"link_url":"#"
+	  	"link_url":"https://itunes.apple.com/us/app/gloo+/id983279379?mt=8"
 	  },
 	  {	
 	  	"background_color":"#292929", 
 	  	"phone_url":"phones_thrive.png", 
 	  	"icon_url":"icon_thrive.png",
 	  	"title":"ThrivePass",
-	  	"description":"Fixie tote bag ethnic keytar. Neutra vinyl American Apparel kale chips tofu art party, cardigan raw denim quinoa. Cray paleo tattooed, Truffaut skateboard street art PBR jean shorts Shoreditch farm.",
+	  	"description":"ThrivePass offers health benefits to active employees of its constituent companies.",
 	  	"link_title":"View the Case Study",
 	  	"link_url":"thrivepass.html"
 	  }
